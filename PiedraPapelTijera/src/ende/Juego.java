@@ -1,6 +1,7 @@
 package ende;
 
 /**
+ * author Alvaro Colas Martinez
  * Simula el juego de Piedra, Papel o tijera
  */
 
@@ -12,7 +13,7 @@ public class Juego
         Jugador p1=new Jugador();
         Jugador p2=new Jugador();
         boolean fin_de_juego=false;  
-        Integer Rondasjugadas = 0;    // Número de rondas jugadas
+        Integer Rondasjugadas = 0;    // Numero de rondas jugadas
         Integer EXITOS_jugador1=p1.exitos;
         Integer EXITOS_jugador2=p2.exitos;
         Integer EmPaTeS = 0;
@@ -107,6 +108,6 @@ class Jugador{
         return(exitos);
     }
     
-    int exitos;      // número de partidas ganadas
+    int exitos;      // numero de partidas ganadas
     int winTotal;
 }
